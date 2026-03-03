@@ -1,0 +1,6 @@
+{
+  "admin.app.algolia-integration": {
+    "component": "Admin",
+    "path": "/admin/app/alg-int/"
+  }
+}

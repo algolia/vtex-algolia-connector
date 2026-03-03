@@ -1,0 +1,6 @@
+query getCatalogCategories {
+  getCategories {
+    resources
+    items
+  }
+}

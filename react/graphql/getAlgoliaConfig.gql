@@ -1,0 +1,11 @@
+query getAlgoliaConfig {
+  getAlgoliaConfigInfo {
+    applicationId
+    searchAPIKey
+    writeAPIKey
+    indexName
+    querySuggestionsIndex
+    fields
+    skuFields
+  }
+}

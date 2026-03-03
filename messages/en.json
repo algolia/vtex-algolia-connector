@@ -1,0 +1,6 @@
+{
+  "admin/algolia.documentation.description": "Here is the link to our official documentation website : ",
+  "admin/algolia.reindex.description": "Perform a full indexation ou re-indexation",
+  "admin/algolia.reindex.button": "Full (Re)indexation",
+  "example": "example"
+}

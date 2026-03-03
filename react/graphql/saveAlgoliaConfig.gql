@@ -1,0 +1,11 @@
+mutation saveAlgoliaConfig($config: AlgoliaConfigInput) {
+  saveAlgoliaConfigInfo(config: $config) {
+    applicationId
+    searchAPIKey
+    writeAPIKey
+    indexName
+    querySuggestionsIndex
+    fields
+    skuFields
+  }
+}

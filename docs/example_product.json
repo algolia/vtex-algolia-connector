@@ -1,0 +1,66 @@
+{
+  "itemId": "48",
+  "name": "2 POST CANOPY",
+  "nameComplete": "2 POST CANOPY",
+  "complementName": "2 post canopy for tractors..69 inches tall from base, 5 pol wide",
+  "ean": "",
+  "referenceId": [
+    {
+      "Key": "RefId",
+      "Value": "880340a"
+    }
+  ],
+  "measurementUnit": "un",
+  "unitMultiplier": 1,
+  "modalType": null,
+  "isKit": false,
+  "images": [
+    {
+      "imageId": "155446",
+      "imageLabel": "2-post-canopy",
+      "imageTag": "<img src=\"~/arquivos/ids/155446-#width#-#height#/2-post-canopy.jpg?v=637903128278930000\" width=\"#width#\" height=\"#height#\" alt=\"2-post-canopy\" id=\"\" />",
+      "imageUrl": "https://algoliapartnerus.vteximg.com.br/arquivos/ids/155446/2-post-canopy.jpg?v=637903128278930000",
+      "imageText": "2-post-canopy",
+      "imageLastModified": "2022-06-08T19:20:27.8930000Z"
+    }
+  ],
+  "sellers": [
+    {
+      "sellerId": "1",
+      "sellerName": "Algolia Inc",
+      "addToCartLink": "https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=48&qty=1&seller=1&sc=1&price=92000&cv=D4D29E7C378145A9831AFF19370B6314_&sc=1",
+      "sellerDefault": true,
+      "commertialOffer": {
+        "DeliverySlaSamplesPerRegion": {},
+        "Installments": [],
+        "DiscountHighLight": [],
+        "GiftSkuIds": [],
+        "Teasers": [],
+        "BuyTogether": [],
+        "ItemMetadataAttachment": [],
+        "Price": 920,
+        "ListPrice": 3000,
+        "PriceWithoutDiscount": 920,
+        "RewardValue": 0,
+        "PriceValidUntil": "2023-10-20T18:30:09Z",
+        "AvailableQuantity": 0,
+        "IsAvailable": false,
+        "Tax": 0,
+        "DeliverySlaSamples": [],
+        "GetInfoErrorMessage": "Code: withoutStock Status:error Message: The item 2 POST CANOPY has no inventory",
+        "CacheVersionUsedToCallCheckout": "D4D29E7C378145A9831AFF19370B6314_",
+        "PaymentOptions": {
+          "installmentOptions": [],
+          "paymentSystems": [],
+          "payments": [],
+          "giftCards": [],
+          "giftCardMessages": [],
+          "availableAccounts": [],
+          "availableTokens": []
+        }
+      }
+    }
+  ],
+  "Videos": [],
+  "estimatedDateArrival": null
+}

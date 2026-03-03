@@ -1,0 +1,23 @@
+[
+  {
+    "section": "storeSetup",
+    "subSection": "search",
+    "subSectionItems": [
+      {
+        "labelId": "admin/navigation.title",
+        "path": "/admin/alg-int/"
+      }
+    ]
+  },
+  {
+    "section": "storeFront",
+    "subSection": "intelligentSearch",
+    "adminVersion": 4,
+    "subSectionItems": [
+      {
+        "labelId": "admin/navigation.title",
+        "path": "/admin/alg-int/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+query getCatalogProductList($from: Int, $to: Int, $categoryId: Int, $subCategoryId: Int) {
+  getProducts(from: $from, to: $to, categoryId: $categoryId, subCategoryId: $subCategoryId) {
+    resources
+    items
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "memory": 1024,
+  "ttl": 10,
+  "timeout": 5000,
+  "minReplicas": 5,
+  "maxReplicas": 10,
+  "workers": 1,
+  "events": {
+    "broadcasterNotification": {
+      "keys": ["broadcaster.notification"]
+    },
+    "skuChange": {
+      "keys": ["broadcaster.notification"]
+    },
+    "broadcasterCatalog": {
+      "sender": "vtex.broadcaster-worker",
+      "keys": ["broadcaster.product"]
+    }
+  }
+}

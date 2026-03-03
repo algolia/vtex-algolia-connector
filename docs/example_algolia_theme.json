@@ -1,0 +1,116 @@
+{
+    "store.custom#algolia": {
+      "children": [
+        "instant-search#first"
+      ]
+    },
+    "instant-search#first": {
+      "props": {
+        "indexName": "vtex_day_catalog_products"
+      },
+      "children": [
+        "flex-layout.row#algoliaMenuItem",
+        "flex-layout.row#algoliaSearch"
+      ]
+    },
+    "flex-layout.row#algoliaSearch": {
+      "props": {
+        "blockClass": "algolia-search"
+      },
+      "children": [
+        "flex-layout.col#algoliaSearch",
+        "flex-layout.col#clearRefinements"
+      ]
+    },
+    "flex-layout.col#clearRefinements": {
+      "props": {
+        "width": "20%"
+      },
+      "children": [
+        "clear-refinements"
+      ]
+    },
+    "flex-layout.row#algoliaMenuItem":  {
+      "props": {
+        "blockClass": "algolia-menu-items"
+      },
+      "children": [
+        "algolia-menu-item#brand"
+      ]
+    },
+    "algolia-menu-item#brand": {
+      "props": {
+        "attribute": "brand"
+      }
+    },
+    "flex-layout.col#algoliaSearch": {
+      "props": {
+        "marginTop": 1,
+        "marginRight": 2,
+        "width:":"80%",
+        "blockClass": "algolia-search"
+      },
+      "children": [
+        "search-box",
+        "flex-layout.row#filterAndResult"
+      ]
+    },
+    "flex-layout.row#searchBoxAlgolia": {
+      "props": {
+        "marginBottom": 7,
+        "blockClass": "algolia-search-box"
+      },
+      "children": ["search-box"]
+    },
+    "flex-layout.row#filterAndResult": {
+      "props": {
+        "blockClass": "algolia-filter-result",
+        "marginBottom": 7
+      },
+      "children": [
+        "flex-layout.col#refinement",
+        "flex-layout.col#hits"
+      ]
+    },
+    "flex-layout.col#refinement": {
+      "props": {
+        "width": "30%",
+        "rowGap": 0,
+        "preventVerticalStretch": true,
+        "blockClass": "algolia-refinement"
+      },
+      "children": [
+        "refinement-list#brand",
+        "refinement-list#color",
+        "refinement-list#sizes"
+      ]
+    },
+    "flex-layout.col#hits": {
+      "props": {
+        "width": "70%",
+        "rowGap": 0,
+        "blockClass": "algolia-hits"
+      },
+      "children": ["hits","pagination"]
+    },
+    "icon-caret#point-up": {
+      "props": {
+        "orientation": "up"
+      }
+    },
+    "refinement-list#brand": {
+      "props": {
+        "attribute": "brand"
+      }
+    },
+    "refinement-list#color": {
+      "props": {
+        "attribute": "color"
+      }
+    },
+    "refinement-list#sizes": {
+      "props": {
+        "attribute": "available_sizes"
+      }
+    }
+  }  

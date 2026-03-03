@@ -1,0 +1,38 @@
+{
+  "instant-search": {
+    "component": "InstantSearch",
+    "composition": "children"
+  },
+  "search-box": {
+    "component": "SearchBox",
+    "composition": "children"
+  },
+  "hits": {
+    "component": "Hits",
+    "composition": "children"
+  },
+  "refinement-list": {
+    "component": "RefinementList",
+    "composition": "children"
+  },
+  "range-input": {
+    "component": "RangeInput",
+    "composition": "children"
+  },
+  "algolia-menu-item": {
+    "component": "MenuItem",
+    "composition": "children"
+  },
+  "clear-refinements": {
+    "component": "ClearRefinements",
+    "composition": "children"
+  },
+  "pagination": {
+    "component": "Pagination",
+    "composition": "children"
+  },
+  "auto-complete": {
+    "component": "Autocomplete",
+    "composition": "children"
+  }
+}

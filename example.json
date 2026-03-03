@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1,
+        "name": "Test Category",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/test-category",
+        "children": [],
+        "Title": "Category_Page_Title",
+        "MetaTagDescription": "Brief description of the category. It is advisable not to exceed 150 characters so that the search engines can show it correctly in the search results;"
+    },
+    {
+        "id": 9281,
+        "name": "Apparel",
+        "hasChildren": true,
+        "url": "https://portal.vtexcommercestable.com.br/apparel",
+        "children": [
+            {
+                "id": 9288,
+                "name": "Shoes",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/apparel/shoes",
+                "children": [],
+                "Title": "",
+                "MetaTagDescription": ""
+            }
+        ],
+        "Title": "Apparel",
+        "MetaTagDescription": "Apparel"
+    },
+    {
+        "id": 9286,
+        "name": "Computer & Software",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/computer---software",
+        "children": [],
+        "Title": "Computer & Software",
+        "MetaTagDescription": "Computer & Software"
+    },
+    {
+        "id": 9285,
+        "name": "Home Appliance",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/home-appliance",
+        "children": [],
+        "Title": "Home Appliance",
+        "MetaTagDescription": "Home Appliance"
+    },
+    {
+        "id": 9287,
+        "name": "Power tools",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/power-tools",
+        "children": [],
+        "Title": "Power tools",
+        "MetaTagDescription": "Power tools"
+    },
+    {
+        "id": 9283,
+        "name": "Sporting",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/sporting",
+        "children": [],
+        "Title": "Sporting",
+        "MetaTagDescription": "Sporting"
+    },
+    {
+        "id": 9284,
+        "name": "Agribusiness",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/agribusiness",
+        "children": [],
+        "Title": "Agribusiness",
+        "MetaTagDescription": "Agribusiness"
+    },
+    {
+        "id": 9282,
+        "name": "Food and beverage",
+        "hasChildren": false,
+        "url": "https://portal.vtexcommercestable.com.br/food-and-beverage",
+        "children": [],
+        "Title": "Food and beverage",
+        "MetaTagDescription": "Food and beverage"
+    },
+    {
+        "id": 101,
+        "name": "Major Appliances",
+        "hasChildren": true,
+        "url": "https://portal.vtexcommercestable.com.br/major-appliances",
+        "children": [
+            {
+                "id": 104,
+                "name": "Refrigerators",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/major-appliances/refrigerators",
+                "children": [],
+                "Title": "Refrigerators",
+                "MetaTagDescription": "This is a generic description of a Department."
+            },
+            {
+                "id": 105,
+                "name": "Ranges & Ovens",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/major-appliances/ranges---ovens",
+                "children": [],
+                "Title": "Ranges & Ovens",
+                "MetaTagDescription": "This is a generic description of a Department."
+            },
+            {
+                "id": 106,
+                "name": "Washers & Dryers",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/major-appliances/washers---dryers",
+                "children": [],
+                "Title": "Washers & Dryers",
+                "MetaTagDescription": "This is a generic description of a Category."
+            }
+        ],
+        "Title": "Home Appliances",
+        "MetaTagDescription": "This is a generic description of a Department."
+    },
+    {
+        "id": 102,
+        "name": "Small Appliances",
+        "hasChildren": true,
+        "url": "https://portal.vtexcommercestable.com.br/small-appliances",
+        "children": [
+            {
+                "id": 107,
+                "name": "Mixers & Blenders",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/small-appliances/mixers---blenders",
+                "children": [],
+                "Title": "Mixers & Blender",
+                "MetaTagDescription": "This is a generic description of a Category."
+            },
+            {
+                "id": 108,
+                "name": "Toasters & Grills",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/small-appliances/toasters---grills",
+                "children": [],
+                "Title": "Toasters & Grills",
+                "MetaTagDescription": "This is a generic description of a Category."
+            },
+            {
+                "id": 109,
+                "name": "Coffee Makers",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/small-appliances/coffee-makers",
+                "children": [],
+                "Title": "Coffee Makers",
+                "MetaTagDescription": "This is a generic description of a Category."
+            }
+        ],
+        "Title": "Small Appliances",
+        "MetaTagDescription": "This is a generic description of a Department."
+    },
+    {
+        "id": 103,
+        "name": "Electronics",
+        "hasChildren": true,
+        "url": "https://portal.vtexcommercestable.com.br/electronics",
+        "children": [
+            {
+                "id": 110,
+                "name": "TVs",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/electronics/tvs",
+                "children": [],
+                "Title": "TVs",
+                "MetaTagDescription": "This is a generic description of a Category."
+            },
+            {
+                "id": 111,
+                "name": "Laptops",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/electronics/laptops",
+                "children": [],
+                "Title": "Laptops",
+                "MetaTagDescription": "This is a generic description of a Category."
+            },
+            {
+                "id": 112,
+                "name": "Cameras",
+                "hasChildren": false,
+                "url": "https://portal.vtexcommercestable.com.br/electronics/cameras",
+                "children": [],
+                "Title": "Cameras",
+                "MetaTagDescription": "This is a generic description of a Category."
+            }
+        ],
+        "Title": "Electronics",
+        "MetaTagDescription": "This is a generic description of a Department."
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "test": "vtex-test-tools test"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "^3.1.3",
+    "@types/graphql": "^14.5.0",
+    "@types/jest": "^25.1.5",
+    "@types/node": "^13.11.0",
+    "@types/react": "^16.9.31",
+    "@types/react-instantsearch-dom": "^6.12.2",
+    "@types/react-intl": "^3.0.0",
+    "@vtex/test-tools": "^3.1.0",
+    "@vtex/tsconfig": "^0.4.4",
+    "algoliapartnerus.alg-int": "https://peterhale--algoliapartnerus.myvtex.com/_v/private/typings/linked/v1/algoliapartnerus.alg-int@1.0.0-beta.0+build1657721494/public/@types/algoliapartnerus.alg-int",
+    "apollo-cache-inmemory": "^1.6.5",
+    "graphql": "14.6.0",
+    "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
+    "vtex.pixel-interfaces": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.pixel-interfaces@1.1.1/public/_types/react",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
+    "vtex.search-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.49.0/public/@types/vtex.search-graphql",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide"
+  },
+  "dependencies": {
+    "@algolia/autocomplete-js": "^1.5.6",
+    "@algolia/autocomplete-plugin-query-suggestions": "^1.5.6",
+    "@algolia/autocomplete-plugin-recent-searches": "^1.5.6",
+    "@algolia/autocomplete-theme-classic": "^1.5.6",
+    "@vtex/css-handles": "^1.1.3",
+    "apollo-client": "^2.6.10",
+    "qs": "^6.10.3",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.12.0",
+    "react-instantsearch-dom": "^6.22.0",
+    "react-intl": "^3.12.0"
+  }
+}

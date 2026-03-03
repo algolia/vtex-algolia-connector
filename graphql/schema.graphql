@@ -1,0 +1,57 @@
+scalar Data
+
+"""
+Algolia Config Properties to load
+"""
+type AlgoliaConfigOutput {
+  applicationId: String
+  searchAPIKey: String
+  writeAPIKey: String
+  indexName: String
+  querySuggestionsIndex: String
+  fields: String
+  skuFields: String
+}
+
+"""
+Algolia Config Properties to save
+"""
+input AlgoliaConfigInput {
+  applicationId: String
+  searchAPIKey: String
+  writeAPIKey: String
+  indexName: String
+  querySuggestionsIndex: String
+  fields: String
+  skuFields: String
+}
+
+"""
+VTEX Products Properties
+"""
+type VTEXAlgoliaProducts {
+  resources: String
+  items: [Data]
+}
+
+type VTEXAlgoliaCategories {
+  resources: String
+  items: [Data]
+}
+
+"""
+GraphQL Queries
+"""
+type Query {
+  getAlgoliaConfigInfo: AlgoliaConfigOutput @cacheControl(scope: PRIVATE)
+  getProducts(from: Int = 1, to: Int = 50, categoryId: Int = 103, subCategoryId: Int = 0): VTEXAlgoliaProducts
+  getCategories: VTEXAlgoliaCategories
+  indexAllProducts: Int
+}
+
+"""
+GraphQL Mutations
+"""
+type Mutation {
+  saveAlgoliaConfigInfo(config: AlgoliaConfigInput): AlgoliaConfigOutput
+}

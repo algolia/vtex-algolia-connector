@@ -1,0 +1,46 @@
+{
+  "name": "alg-int",
+  "vendor": "algoliapartnerus",
+  "version": "1.0.0",
+  "title": "Integration with Algolia",
+  "description": "Integration with Algolia",
+  "builders": {
+    "react": "3.x",
+    "node": "6.x",
+    "store": "0.x",
+    "pixel": "0.x",
+    "admin": "0.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "graphql": "1.x"
+  },
+  "dependencies": {
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.styleguide": "9.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.broadcaster": "0.x",
+    "vtex.broadcaster-worker": "0.x"
+  },
+  "policies": [
+    {
+      "name": "vbase-read-write"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/catalog_system/pub/products/search"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "*",
+        "path": "*"
+      }
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
